@@ -140,7 +140,7 @@ const experiences = [
     company_name: "Pitech Plus",
     icon: pitechIcon,
     iconBg: "#00bfa4",
-    date: "July 2022 - Oot 2022",
+    date: "July 2022 - Oct 2022",
     points: [
       "Built a strong foundation on the fundamentals of OOP, SQL & Symfony",
       "Improved on efficient methods of developing a web application",
