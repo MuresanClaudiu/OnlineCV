@@ -60,8 +60,7 @@ import {
 
 } from "../assets";
 
-export const about = "I am Junior PHP Developer and a student at the Technical University in Cluj Napoca, studying Computer Science in the last year, and I am looking forward to learning new things, in technical and scientific subjects. I'm also very passionate about everything connected to technology."
-
+export const about = "I'm a Junior PHP Developer and a final-year Computer Science student at the Technical University in Cluj Napoca. I'm all about learning new stuff, whether it's tech-related or in the world of science. Technology is my jam, and I'm super excited about it!"
 export const navLinks = [
   {
     id: "about",
@@ -82,10 +81,10 @@ const services = [
     title: "Backend",
     icon: backend,
   },
-  {
-    title: "DevOps",
-    icon: web,
-  },
+  // {
+  //   title: "DevOps",
+  //   icon: web,
+  // },
   {
     title: "Frontend",
     icon: mobile,
@@ -145,7 +144,8 @@ const experiences = [
     points: [
       "Built a strong foundation on the fundamentals of OOP, SQL & Symfony",
       "Improved on efficient methods of developing a web application",
-      "Insights on industry Standards for web development"
+      "Insights on industry Standards for web development",
+      "Developed a local hotel management project using Symfony and Twig",
     ],
   },
   {
@@ -155,13 +155,11 @@ const experiences = [
     iconBg: "#00bfa4",
     date: "Oct 2022 - Present",
     points: [
-      "Worked extensively with Salesforce, customizing and configuring Salesforce CRM to meet specific business needs.",
-      "Utilized Salesforce Data Loader for data migration and manipulation tasks.",
       "Worked with Docker to containerize applications, improving portability and scalability.",
-      "Managed Docker containers for various applications in development and production environments.",
-      "Orchestrated container deployments and scaling with Docker Compose and Kubernetes.",
-      "Utilized Kibana and the ELK stack for log management, monitoring, and visualization of application data.",
+      "Utilized ElasticSearch for log management, monitoring, and visualization of application data.",
       "Adopted exclusively to Linux OS (Ubuntu) for day-to-day tasks",
+      "Developed new features for projects",
+      "Wrote formal tests to ensure code quality.",
     ],
   }
 ];
@@ -205,12 +203,8 @@ const projects = [
   {
     name: "Fitness Application",
     description:
-      "The application started as a fitness app where you could scan the barcode of any food item using your camera, and all the nutritional details would be saved in your account along with customized meal plans tailored to your preferences",
+      "The application started as a fitness app where you could scan the barcode of any food item using your camera, and all the nutritional details would be saved in your account along with customized meal plans tailored to your preferences.",
     tags: [
-      {
-        name: "C#",
-        color: "blue-text-gradient",
-      },
       {
         name: "react",
         color: "green-text-gradient",

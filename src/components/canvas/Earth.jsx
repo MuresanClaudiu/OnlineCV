@@ -5,6 +5,11 @@ import CanvasLoader from '../Loader'
 
 const Earth = () => {
   const earth = useGLTF('/lowild/scene.gltf')
+  earth.scene.traverse((child) => {
+  if (child.isMesh) {
+    child.material.color.set(0xffffff); // Setați culoarea difuză la alb pentru o strălucire mai mare
+  }
+})
 
   return (
     <primitive 
