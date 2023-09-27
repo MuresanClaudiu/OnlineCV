@@ -30,8 +30,8 @@ const Contact = () => {
     setLoading(true)
 
     emailjs.send(
-      'service_nhq6kus',
-      'template_jb8oylu',
+      'service_p752b7c',
+      'template_86kgxzt',
       {
         from_name: form.name,
         from_email: form.email,
@@ -39,7 +39,7 @@ const Contact = () => {
         to_email: 'claumur2001@yahoo.com',
         message: form.message
       },
-      'kqnoczsL0DVGRYiCD',
+      'LnHPHK_uQahuMeHWE',
     ).then(() => {
 
       setLoading(false)
