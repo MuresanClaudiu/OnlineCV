@@ -136,6 +136,32 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Mid Entry PHP Developer",
+    company_name: "Pitech Plus",
+    icon: pitechIcon,
+    iconBg: "#00bfa4",
+    date: "April 2024 - present",
+    points: [
+      "Focusing on Cypress integration and automation test writing.",
+      "Gained expertise in message queue systems, particularly RabbitMQ and Azure Service Bus.",
+      "Acquired practical skills in managing and deploying applications with Kubernetes.",
+    ],
+  },
+  {
+    title: "Junior PHP Developer",
+    company_name: "Pitech Plus",
+    icon: pitechIcon,
+    iconBg: "#00bfa4",
+    date: "Oct 2022 - April 2024",
+    points: [
+      "Worked with Docker to containerize applications, improving portability and scalability.",
+      "Utilized ElasticSearch for log management, monitoring, and visualization of application data.",
+      "Adopted exclusively to Linux OS (Ubuntu) for day-to-day tasks",
+      "Developed new features for projects",
+      "Wrote formal tests to ensure code quality.",
+    ],
+  },
+  {
     title: "PHP Developer Intern",
     company_name: "Pitech Plus",
     icon: pitechIcon,
@@ -146,20 +172,6 @@ const experiences = [
       "Improved on efficient methods of developing a web application",
       "Insights on industry Standards for web development",
       "Developed a local hotel management project using Symfony and Twig",
-    ],
-  },
-  {
-    title: "Junior PHP Developer",
-    company_name: "Pitech Plus",
-    icon: pitechIcon,
-    iconBg: "#00bfa4",
-    date: "Oct 2022 - Present",
-    points: [
-      "Worked with Docker to containerize applications, improving portability and scalability.",
-      "Utilized ElasticSearch for log management, monitoring, and visualization of application data.",
-      "Adopted exclusively to Linux OS (Ubuntu) for day-to-day tasks",
-      "Developed new features for projects",
-      "Wrote formal tests to ensure code quality.",
     ],
   }
 ];
